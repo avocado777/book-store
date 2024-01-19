@@ -1,0 +1,25 @@
+.nav_header {
+	display: flex;
+	align-items: center;
+}
+
+.nav_header > a {
+	display: flex;
+	gap: 8px;
+}
+
+.books {
+	padding: 10px 30px;
+	border-radius: 50px;
+	background-color: #daaa63;
+}
+
+.audiobooks {
+	padding: 10px 30px;
+	border-radius: 50px;
+}
+
+.audiobooks:hover:focus {
+	padding: 10px 30px;
+	background-color: rgba(218, 170, 99, 0.3);
+}

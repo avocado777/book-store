@@ -1,0 +1,14 @@
+.container {
+	min-height: 650px;
+	margin: 70px 60px;
+	padding: 35px 40px;
+	background-color: #f8f3ed;
+	border-radius: 20px;
+}
+
+.header {
+	@apply flex items-center justify-between;
+}
+
+.main {
+}

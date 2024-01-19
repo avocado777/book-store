@@ -1,0 +1,26 @@
+.section {
+	margin: 70px 40px;
+	max-width: 300px;
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+.section > section {
+	font-family: 'Libre Caslon Text', serif;
+	font-size: 50px;
+	font-weight: inherit;
+}
+
+.section > p {
+	color: #b4ada9;
+}
+
+.section > div {
+	gap: 10px;
+	display: flex;
+	max-width: 300px;
+	padding: 5px 10px;
+	border-radius: 50px;
+	background-color: #ffffff;
+}
