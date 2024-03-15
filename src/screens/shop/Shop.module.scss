@@ -10,9 +10,3 @@
 	padding: 0 calc(calc(1vh + 1vw) * 2);
 	margin-bottom: calc(calc(1vh + 1vw) * 1.15);
 }
-
-.main {
-	display: grid;
-	grid-template-columns: 1fr 2fr;
-	padding: calc(calc(1vh + 1vw) * 1.15) calc(calc(1vh + 1vw) * 2);
-}

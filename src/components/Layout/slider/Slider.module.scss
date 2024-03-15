@@ -1,0 +1,40 @@
+.container {
+	display: flex;
+	align-items: center;
+	gap: calc(calc(1vh + 1vw) * 2);
+	padding: calc(calc(1vh + 1vw) * 1.15) calc(calc(1vh + 1vw) * 2);
+
+	> h2 {
+		transform: rotate(270deg);
+		text-align: center;
+	}
+}
+
+.slider {
+	display: flex;
+
+	> .form {
+		margin-right: 30px;
+		display: flex;
+		align-items: center;
+		gap: 20px;
+
+		> img {
+			height: 200px;
+			width: auto;
+		}
+
+		> div {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+
+			> button {
+				padding: 5px 8px;
+				color: rgb(221 180 118);
+				border: 1px solid rgba(221, 180, 118, 0.7);
+				border-radius: 20px;
+			}
+		}
+	}
+}

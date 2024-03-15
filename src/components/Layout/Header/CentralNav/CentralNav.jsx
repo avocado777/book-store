@@ -1,17 +1,20 @@
 import { Headphones, Library } from 'lucide-react'
+import { Link } from 'react-router-dom'
 import styles from './CentralNav.module.scss'
 
-export function CentralNav() {
+const CentralNav = () => {
 	return (
 		<div className={styles.nav_header}>
-			<a className={styles.books} href='/books'>
+			<Link className={styles.books} to='/'>
 				<Library />
 				Books
-			</a>
-			<a className={styles.audiobooks} href='/audio books'>
+			</Link>
+			<Link className={styles.audio} to='/audio'>
 				<Headphones />
 				AudioBooks
-			</a>
+			</Link>
 		</div>
 	)
 }
+
+export default CentralNav

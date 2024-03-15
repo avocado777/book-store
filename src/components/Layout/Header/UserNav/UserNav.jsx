@@ -1,26 +1,24 @@
-import {
-	Bookmark,
-	CircleUserRound,
-	MoreVertical,
-	ShoppingCart,
-} from 'lucide-react'
+import { CircleUserRound, MoreVertical, ShoppingCart } from 'lucide-react'
+import { Link } from 'react-router-dom'
 import styles from './UserNav.module.scss'
 
-export function UserNav() {
+const UserNav = () => {
 	return (
 		<div className={styles.user_nav}>
-			<a href=''>
+			{/* <a href='/b'>
 				<Bookmark />
-			</a>
-			<a href=''>
+			</a> */}
+			<Link to='/shopping'>
 				<ShoppingCart />
-			</a>
-			<a href=''>
+			</Link>
+			<Link to='/login'>
 				<CircleUserRound />
-			</a>
-			<a href=''>
+			</Link>
+			<Link to='/more'>
 				<MoreVertical />
-			</a>
+			</Link>
 		</div>
 	)
 }
+
+export default UserNav

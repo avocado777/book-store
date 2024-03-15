@@ -1,32 +1,33 @@
 .section {
-	margin: 70px 40px;
-	max-width: 300px;
 	display: flex;
 	flex-direction: column;
-	gap: 10px;
-}
+	align-items: center;
+	justify-content: space-around;
+	gap: calc(calc(1vh + 1vw) * 1.17);
 
-.section > section {
-	font-family: 'Libre Caslon Text', serif;
-	font-size: 60px;
-	font-weight: inherit;
-}
+	> section {
+		font-family: 'Libre Caslon Text', serif;
+		font-size: 60px;
+		font-weight: inherit;
+		text-align: start;
+	}
 
-.section > p {
-	font-size: 14px;
-	color: #b4ada9;
-	margin-bottom: 10px;
-}
+	> p {
+		font-size: 14px;
+		color: #b4ada9;
+		margin-bottom: 10px;
+	}
 
-.section > div {
-	gap: 10px;
-	display: flex;
-	max-width: 260px;
-	padding: 5px 10px;
-	border-radius: 50px;
-	background-color: #ffffff;
-}
+	> div {
+		gap: 10px;
+		display: flex;
+		max-width: 260px;
+		padding: 10px 15px;
+		border-radius: 50px;
+		background-color: #ffffff;
 
-.section > div > input {
-	outline: none;
+		> input {
+			outline: none;
+		}
+	}
 }

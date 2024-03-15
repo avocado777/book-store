@@ -1,26 +1,43 @@
-.section {
-	margin: 70px 40px;
-	max-width: 300px;
+.container {
 	display: flex;
-	flex-direction: column;
-	gap: 10px;
+	align-items: center;
+	justify-content: space-between;
 }
 
-.section > section {
-	font-family: 'Libre Caslon Text', serif;
-	font-size: 50px;
-	font-weight: inherit;
+.mainBook {
 }
 
-.section > p {
-	color: #b4ada9;
-}
-
-.section > div {
-	gap: 10px;
+.author {
 	display: flex;
-	max-width: 300px;
-	padding: 5px 10px;
-	border-radius: 50px;
-	background-color: #ffffff;
+	gap: 10px;
+
+	> .div {
+		transform: rotate(270deg);
+	}
+
+	> h2 {
+		transform: rotate(270deg);
+		text-align: center;
+	}
+
+	> .author__container {
+		background-color: #ddb476;
+		height: 100px;
+		width: 50px;
+	}
+}
+
+.listen {
+	display: flex;
+
+	> h2 {
+		transform: rotate(270deg);
+		text-align: center;
+	}
+
+	.listen__container {
+		background-color: #fff;
+		height: 250px;
+		width: 100px;
+	}
 }

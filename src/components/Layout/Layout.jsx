@@ -1,18 +1,13 @@
-import { Header } from './Header/Header'
-import styles from './Layout.module.scss'
-import { Main } from './Main/Main'
-import { Shelf } from './Shelf/Shelf'
+import Shelf from './shelf/Shelf'
+import Slider from './slider/Slider'
 
-export function Layout() {
+const Layout = () => {
 	return (
-		<div className={styles.container}>
-			<header className={styles.header}>
-				<Header />
-			</header>
-			<main className={styles.main}>
-				<Main />
-			</main>
+		<>
 			<Shelf />
-		</div>
+			<Slider />
+		</>
 	)
 }
+
+export default Layout

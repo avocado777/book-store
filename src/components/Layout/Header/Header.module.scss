@@ -1,4 +1,5 @@
 .logo {
-	@apply font-bold;
-	font-size: 30px;
+	@apply font-extrabold;
+	font-size: 40px;
+	margin-left: calc(calc(1vh + 1vw) * 2);
 }

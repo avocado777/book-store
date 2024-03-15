@@ -1,11 +1,13 @@
 import { Search } from 'lucide-react'
 import styles from './Title.module.scss'
 
-export function Title() {
+const Title = () => {
 	return (
 		<>
 			<div className={styles.section}>
-				<section>New & Trending</section>
+				<section>
+					New &<br /> Trending
+				</section>
 				<p>Explorer new worlds from authors</p>
 				<div>
 					<Search />
@@ -20,3 +22,5 @@ export function Title() {
 		</>
 	)
 }
+
+export default Title

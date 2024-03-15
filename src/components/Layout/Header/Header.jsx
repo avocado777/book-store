@@ -1,15 +1,18 @@
-import { CentralNav } from './CentralNav/CentralNav'
+import { Link } from 'react-router-dom'
+import CentralNav from './CentralNav/CentralNav'
 import styles from './Header.module.scss'
-import { UserNav } from './UserNav/UserNav'
+import UserNav from './UserNav/UserNav'
 
-export function Header() {
+const Header = () => {
 	return (
 		<>
-			<a className={styles.logo} href='/'>
+			<Link className={styles.logo} to='/'>
 				BOOKS
-			</a>
+			</Link>
 			<CentralNav />
 			<UserNav />
 		</>
 	)
 }
+
+export default Header
